@@ -310,7 +310,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       const newUser = { name, email, password };
       setUsers((prev) => [...prev, newUser]);
       setUser(newUser);
-      showToast(`Welcome to ÉLÉVE, ${name.split(" ")[0]}!`);
+      showToast(`Welcome to AK Clothes, ${name.split(" ")[0]}!`);
       return { ok: true, message: "Registration successful" };
     },
     [users, showToast]

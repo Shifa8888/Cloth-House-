@@ -16,7 +16,7 @@ export function About() {
       <section className="relative overflow-hidden bg-stone-900">
         <img
           src="https://images.pexels.com/photos/10619443/pexels-photo-10619443.jpeg?auto=compress&cs=tinysrgb&w=1600&q=80"
-          alt="About ÉLÉVE"
+          alt="About AK Clothes"
           className="absolute inset-0 h-full w-full object-cover opacity-50"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-stone-900 via-stone-900/80 to-stone-900/40" />
@@ -32,8 +32,8 @@ export function About() {
               <span className="italic text-amber-400">Since 2018</span>
             </h1>
             <p className="mt-6 max-w-lg text-base leading-relaxed text-cream/80">
-              ÉLÉVE was born from a simple belief: that clothing should be beautiful,
-              sustainable, and made to last. We design timeless pieces that transcend trends.
+              AK Clothes by AnabiyaWear was born from a simple belief: that clothing should be beautiful,
+              comfortable, and made with care. We design timeless pieces that blend traditional elegance with modern style.
             </p>
           </div>
         </div>
@@ -48,9 +48,9 @@ export function About() {
           Fashion with a conscience
         </h2>
         <p className="mt-6 text-lg leading-relaxed text-stone-600">
-          We believe in slow fashion — pieces designed to be worn for years, not seasons.
-          Every ÉLÉVE garment is crafted from responsibly sourced materials by skilled artisans
-          who are paid fair wages. We're proving that luxury and sustainability can coexist.
+          We believe in fashion that celebrates heritage and modernity together.
+          Every AK Clothes garment is crafted from quality materials by skilled artisans
+          who bring their expertise to every stitch. We're proving that elegance and affordability can coexist.
         </p>
       </section>
 
@@ -125,11 +125,11 @@ export function About() {
         </div>
         <div className="space-y-8">
           {[
-            { year: "2018", title: "The Beginning", desc: "ÉLÉVE founded in a small Paris atelier with a vision for sustainable luxury." },
-            { year: "2020", title: "First Flagship", desc: "Opened our flagship store on Rue Saint-Honoré in the heart of Paris." },
-            { year: "2022", title: "Going Global", desc: "Expanded to 30+ countries with our carbon-neutral shipping program." },
-            { year: "2024", title: "100% Sustainable", desc: "Achieved full carbon neutrality and 100% recyclable packaging across all operations." },
-            { year: "2026", title: "The Future", desc: "Launching our circular fashion program — take-back and repair services for every ÉLÉVE piece." },
+            { year: "2020", title: "The Beginning", desc: "AK Clothes founded with a vision to bring quality ethnic and western wear to everyone." },
+            { year: "2022", title: "First Store", desc: "Opened our first retail store, serving customers with personalized styling." },
+            { year: "2024", title: "Online Presence", desc: "Launched our e-commerce platform to reach customers nationwide." },
+            { year: "2025", title: "Expanding Collection", desc: "Introduced designer lehengas and premium saree collections." },
+            { year: "2026", title: "The Future", desc: "Growing our brand with custom design services and nationwide delivery." },
           ].map((m, i) => (
             <div key={m.year} className="flex gap-6">
               <div className="flex flex-col items-center">
@@ -152,7 +152,7 @@ export function About() {
         <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-amber-500 to-amber-700 p-10 text-center sm:p-16">
           <SparkleIcon className="mx-auto h-10 w-10 text-white/80" />
           <h2 className="mt-4 font-display text-3xl font-bold text-white sm:text-4xl">
-            Join the ÉLÉVE Movement
+            Join the AK Clothes Family
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-white/90">
             Become part of a community that values quality over quantity, people over profit,

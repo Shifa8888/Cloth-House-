@@ -56,7 +56,7 @@ export function Footer() {
             onClick={() => navigate("home")}
             className="font-display text-3xl font-bold tracking-[0.15em]"
           >
-            ÉLÉVE
+            AK Clothes
           </button>
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-cream/70">
             Premium fashion house crafting timeless pieces for the modern individual.
@@ -64,7 +64,7 @@ export function Footer() {
           </p>
           <form onSubmit={subscribe} className="mt-6 max-w-sm">
             <label className="text-xs font-semibold uppercase tracking-wider text-cream/60">
-              Join the ÉLÉVE list
+              Join the AK Clothes list
             </label>
             <div className="mt-2 flex overflow-hidden rounded-full border border-white/20 bg-white/5">
               <input
@@ -173,7 +173,7 @@ export function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-6 text-xs text-cream/50 sm:flex-row sm:px-6 lg:px-8">
-          <p>© 2026 ÉLÉVE Atelier. All rights reserved.</p>
+          <p>© 2026 AK Clothes by AnabiyaWear. All rights reserved.</p>
           <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
             {["Privacy Policy", "Terms of Service", "Cookie Policy", "Shipping Info"].map((t) => (
               <button key={t} onClick={() => navigate("about")} className="hover:text-amber-400">

@@ -108,7 +108,7 @@ export function Navbar() {
             onClick={() => navigate("home")}
             className="font-display text-2xl font-bold tracking-[0.15em] text-stone-900 sm:text-3xl"
           >
-            ÉLÉVE
+            AK Clothes
           </button>
 
           {/* Desktop nav */}

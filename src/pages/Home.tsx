@@ -13,7 +13,14 @@ import {
 export function Home() {
   const { navigate } = useStore();
   const bestsellers = products.filter((p) => p.isBestseller).slice(0, 8);
-  const newArrivals = products.filter((p) => p.isNew).slice(0, 4);
+  // Show the 3 ethnic wear items first in New Arrivals
+  const ethnicNewArrivals = products.filter((p) => 
+    p.isNew && (p.subcategory === "Sarees" || p.subcategory === "Lehengas")
+  ).slice(0, 3);
+  const otherNewArrivals = products.filter((p) => 
+    p.isNew && p.subcategory !== "Sarees" && p.subcategory !== "Lehengas"
+  ).slice(0, 1);
+  const newArrivals = [...ethnicNewArrivals, ...otherNewArrivals];
 
   return (
     <div>
@@ -22,7 +29,7 @@ export function Home() {
         <div className="absolute inset-0">
           <img
             src="https://images.pexels.com/photos/9594680/pexels-photo-9594680.jpeg?auto=compress&cs=tinysrgb&w=1600&q=80"
-            alt="ÉLÉVE Collection"
+            alt="AK Clothes Collection"
             className="h-full w-full object-cover opacity-80"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-stone-900/90 via-stone-900/50 to-transparent" />
@@ -270,9 +277,9 @@ export function Home() {
             },
             {
               quote:
-                "ÉLÉVE has redefined what premium means. Every piece feels considered, intentional, and built to last for years.",
-              name: "Marcus Chen",
-              role: "Creative Director",
+                "AK Clothes has redefined what quality ethnic wear means. Every piece feels elegant, authentic, and perfect for special occasions.",
+              name: "Ayesha Khan",
+              role: "Fashion Enthusiast",
             },
             {
               quote:

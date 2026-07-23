@@ -211,7 +211,7 @@ export function Contact() {
         <div className="space-y-6">
           <div className="overflow-hidden rounded-3xl border border-stone-200">
             <iframe
-              title="ÉLÉVE Paris Store"
+              title="AK Clothes Store"
               src="https://www.openstreetmap.org/export/embed.html?bbox=2.335%2C48.860%2C2.345%2C48.865&layer=mapnik"
               className="h-72 w-full border-0"
               loading="lazy"

@@ -79,13 +79,13 @@ export function Auth() {
               onClick={() => navigate("home")}
               className="font-display text-3xl font-bold tracking-[0.15em] text-cream"
             >
-              ÉLÉVE
+              AK Clothes
             </button>
           </div>
           <div className="relative text-cream">
             <SparkleIcon className="h-8 w-8 text-amber-400" />
             <h2 className="mt-4 font-display text-4xl font-bold leading-tight">
-              Join the world of <span className="italic text-amber-400">ÉLÉVE</span>
+              Join the world of <span className="italic text-amber-400">AK Clothes</span>
             </h2>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-cream/80">
               Create an account to enjoy faster checkout, track your orders, save your
@@ -121,8 +121,8 @@ export function Auth() {
             </h1>
             <p className="mt-2 text-sm text-stone-500">
               {mode === "login"
-                ? "Sign in to your ÉLÉVE account"
-                : "Join ÉLÉVE in just a few seconds"}
+                ? "Sign in to your AK Clothes account"
+                : "Join AK Clothes in just a few seconds"}
             </p>
           </div>
 
@@ -268,7 +268,7 @@ export function Auth() {
           </p>
 
           <p className="mt-6 text-center text-xs text-stone-400">
-            By continuing, you agree to ÉLÉVE's{" "}
+            By continuing, you agree to AK Clothes'{" "}
             <button onClick={() => navigate("about")} className="underline hover:text-amber-700">
               Terms of Service
             </button>{" "}
